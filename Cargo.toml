@@ -1,7 +1,10 @@
 [package]
 name = "web3_wallet_security"
 version = "0.1.0"
-edition = "2021"
+authors = ["Your Name <you@example.com>"]
+description = "A Rust SDK for Web3 wallet security"
+repository = "https://github.com/yourusername/web3_wallet_security"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
