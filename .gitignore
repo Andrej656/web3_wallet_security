@@ -1,0 +1,33 @@
+# Compiled output
+/target/
+
+# Rust/Cargo
+**/*.rs.bk
+Cargo.lock
+
+# Temporary files
+**/*.log
+**/*.tmp
+*.swp
+*.swo
+
+# IDEs/Editors
+/.idea/
+/.vscode/
+/*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git-related
+*.orig
+*.patch
+*.rej
+
+# Node.js (if you use npm/yarn in the project)
+/node_modules/
+
+/dist/
+
+/*.env

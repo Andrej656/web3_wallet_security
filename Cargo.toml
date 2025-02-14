@@ -6,3 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+ethers = "2.0"         # Ethereum/Web3 interaction
+ed25519-dalek = "1.0"  # Public/private key cryptography
+secrecy = "0.8"        # Securely handle sensitive data
+rand = "0.8"           # Cryptographically secure random number generation
+tokio = { version = "1.32", features = ["full"] }  # Async runtime
+serde = { version = "1.0", features = ["derive"] } # Serialization
+
